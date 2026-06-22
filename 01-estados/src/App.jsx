@@ -5,7 +5,9 @@ import PePequeno from './components/PePequeno'
 import GuilhermePortoes from './components/GuilhermePortoes'
 import TrajetoPomar from './components/TrajetoPomar'
 import PeErnan from './components/PeErnan'
-import junin from './components/Junin'
+import Junin from './components/Junin'
+import TellesTransportes from './components/TellesTransportes'
+import Monika from './components/Monika'
 
 function App() {
   // Estado
@@ -46,12 +48,19 @@ function incrementarSalario(){
    <PeErnan />
    <hr />
 
-    {/* importação do Junin*/}
-   <Junin/>
+ {/* importação do Junin */}
+   <Junin />
    <hr />
 
+   {/* importação do TellesTransportes */}
+   <TellesTransportes />
+   <hr />
 
+    {/* importação da Monika */}
+   <Monika />
+   <hr />
 
+   
 
 
    {/* Serve para escrever o valor em reais, adiciona o ponto e tambem a virgula */}
