@@ -16,7 +16,8 @@ function GuilhermePortoes() {
    <div className="cont-guilherme-portoes">
      <h2>Guilherme Portões e a força de trabalho da Macrohard</h2>
      <button onClick={calcular} >Calcular o total de devs</button>
-     total: {total}
+     { total &&  <p>Total: {total} </p> }
+     {/* total: {total} */}
 
    </div>
   )

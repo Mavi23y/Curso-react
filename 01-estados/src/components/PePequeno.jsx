@@ -15,7 +15,8 @@ function PePequeno() {
    <div className="cont-pe-pequeno">
      <h2>Pé Pequeno e o prejuízo das trocas</h2>
      <button onClick={calcular} >Calcular o resultado</button>
-     resultado: {recibo}
+     { recibo &&  <p>Resultado: {recibo} </p> }
+     {/* resultado: {recibo} */}
 
    </div>
   )

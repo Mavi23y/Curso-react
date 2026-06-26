@@ -15,7 +15,8 @@ function TrajetoPomar() {
    <div className="cont-trajeto-pomar">
      <h2>Trajeto Pomar e o estoque de frutas</h2>
      <button onClick={calcular} >Calcular vendas</button>
-     vendas: {vendidas}
+     { vendidas &&  <p>vendas: {vendidas} </p> }
+     {/* vendas: {vendidas} */}
 
    </div>
   )

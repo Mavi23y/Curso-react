@@ -15,7 +15,8 @@ function Peba() {
    <div className="cont-peba">
      <h2>Peba e o campeonato de futebol</h2>
      <button onClick={calcularPontos} >Calcular os pontos</button>
-     pontos: {resultado}
+     { resultado &&  <p>Pontos: {resultado} </p> }
+     {/* pontos: {resultado} */}
 
    </div>
   )

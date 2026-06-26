@@ -15,7 +15,8 @@ function PeErnan() {
    <div className="cont-trajeto-pomar">
      <h2>Pe. Ernan Buco e os custos da Igreja</h2>
      <button onClick={calcular} >Calcular custos mensais</button>
-     custos: {custos}
+    { custos &&  <p>Custos: {custos} </p> }
+     {/* custos: {custos} */}
 
    </div>
   )
