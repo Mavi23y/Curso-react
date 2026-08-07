@@ -1,0 +1,31 @@
+.cont-gerador{
+    background-color: var(--cor-4);
+    color: var(--cor-5);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00000071;
+
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.cont-gerador button{
+    background-color: var(--cor-3);
+    color: var(--cor-5);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cont-gerador button:active{
+    scale: 0.98;
+}
+
+.senha{
+    font-size: 100px;
+    text-shadow: 0 0 10 ;
+}

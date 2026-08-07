@@ -1,0 +1,17 @@
+.cabecalho{
+    background-color: var(--cor-4);
+    color: var(--cor-5);
+    height: 70px;
+    font-size: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 5px #00000071;
+    border-bottom: 20%;
+
+    /* transform: rotate(90deg); */
+    /* text-orientation: upright;
+    writing-mode: vertical-lr; */
+}
